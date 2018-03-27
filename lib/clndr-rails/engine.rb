@@ -3,7 +3,7 @@ class Clndr
       #  add helpers
       initializer 'clndr.action_controller' do |app|
         ActiveSupport.on_load :action_controller do
-          helper Clndr::Helpers
+          ::ActionController::Base.send(:include, Clndr::Helpers)
         end
       end
     end
