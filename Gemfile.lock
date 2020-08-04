@@ -4,8 +4,8 @@ PATH
     clndr-rails (1.4.7.2)
       jquery-rails
       momentjs-rails
-      rails (>= 4.1.0, < 5.1)
-      railties (>= 4.1.0, < 5.1)
+      rails (>= 4.1.0)
+      railties (>= 4.1.0)
       underscore-rails
 
 GEM
